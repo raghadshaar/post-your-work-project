@@ -1,27 +1,69 @@
->**Note**: Please **fork** this Udacity repository so you have a **remote** repository in **your** GitHub account. Then you can clone the remote repository to your local machine. Later, as a part of the project, you will push your changes to the remote repository in your GitHub account.
+# US Bikeshare Data Exploration Project
 
+## Date Created
+June 18, 2026
 
-# Project Title
+## Overview
+This Python project explores bikeshare data for three U.S. cities:
 
-Describe what your project is about and what it does
+- Chicago
+- New York City
+- Washington
 
-## Information about how to use your project
+Users can filter data by city, month, and day of the week, then view statistics about travel patterns, stations, trip durations, and user demographics.
 
-This could include:
+## Requirements
 
-- Step-by-step instructions for installing or setting up your project.
-- Any software dependencies that need to be installed.
-- Instructions and examples for how to use your project, including any helpful code snippets.
-- Common issues and troubleshooting tips
+- Python 3.x
+- Pandas
+- NumPy
 
-## Contribution guidelines
+Install dependencies:
 
-If you welcome contributions, provide guidelines on how others can contribute to your project.
+```bash
+pip install pandas numpy
+```
 
-## Credits
+## Files
 
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+```text
+bikeshare_starter.py
+chicago.csv
+new_york_city.csv
+washington.csv
+README.md
+```
 
-## Date created
+## Running the Program
 
-Include the date you created this project and README file.
+```bash
+python bikeshare_starter.py
+```
+
+Follow the prompts to select:
+
+- City (`chicago`, `new york city`, `washington`)
+- Month (`all`, `january`–`june`)
+- Day (`all`, `monday`–`sunday`)
+
+## Statistics Available
+
+- Most common travel times
+- Most popular stations and routes
+- Total and average trip duration
+- User type counts
+- Gender and birth year statistics (when available)
+
+## Known Issue
+
+`washington.csv` does not contain Gender or Birth Year data, so those statistics are skipped for Washington.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Acknowledgements
+
+- Motivate for the bikeshare datasets
+- Pandas and NumPy documentation
+- Udacity Data Analyst Nanodegree Program
