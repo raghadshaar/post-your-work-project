@@ -23,16 +23,17 @@ Install dependencies:
 ```bash
 pip install pandas numpy
 ```
-
 ## Files
 
 ```text
 bikeshare_starter.py
-chicago.csv
-new_york_city.csv
-washington.csv
 README.md
+.gitignore
 ```
+
+## Dataset
+
+The required datasets (chicago.csv, new_york_city.csv, and washington.csv) are not included in this repository and should be placed in the project directory before running the program.
 
 ## Running the Program
 
