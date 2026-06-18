@@ -6,6 +6,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+VALID_CITIES = list(CITY_DATA.keys())
 
 
 def display_execution_time(start_time):
