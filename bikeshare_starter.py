@@ -6,6 +6,13 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+VALID_CITIES = list(CITY_DATA.keys())
+
+
+def display_execution_time(start_time):
+    print("\nThis took %s seconds." % (time.time() - start_time))
+    print('-' * 40)
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -60,8 +67,7 @@ def time_stats(df):
     # display the most common start hour
 
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    display_execution_time(start_time)
 
 
 def station_stats(df):
@@ -79,8 +85,7 @@ def station_stats(df):
     # display most frequent combination of start station and end station trip
 
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    display_execution_time(start_time)
 
 
 def trip_duration_stats(df):
@@ -95,8 +100,7 @@ def trip_duration_stats(df):
     # display mean travel time
 
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+display_execution_time(start_time)
 
 
 def user_stats(df):
@@ -114,8 +118,7 @@ def user_stats(df):
     # Display earliest, most recent, and most common year of birth
 
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    display_execution_time(start_time)
 
 
 def main():
