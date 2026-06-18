@@ -47,6 +47,15 @@ Follow the prompts to select:
 - Month (`all`, `january`–`june`)
 - Day (`all`, `monday`–`sunday`)
 
+## Example
+
+```text
+Enter city: chicago
+Enter month: march
+Enter day: friday
+```
+
+The program will then display statistics based on the selected filters.
 ## Statistics Available
 
 - Most common travel times
