@@ -68,10 +68,6 @@ The program will then display statistics based on the selected filters.
 
 `washington.csv` does not contain Gender or Birth Year data, so those statistics are skipped for Washington.
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Acknowledgements
 
 - Motivate for the bikeshare datasets
